@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Orpheus</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.5.4/dist/speech-commands.min.js"></script>
+  </head>
+  <body>
+    <div id="phone">
+      <div id="container">
+        <div id="header">
+          <img src="/dino.png" />
+          <p>Orpheus</p>
+        </div>
+        <div id="wrapper">
+          <div class="system" id="startup">&middot; &middot; &middot;</div>
+          <div id="messages"></div>
+          <div class="system" id="loading">&middot; &middot; &middot;</div>
+          <div class="user" id="result">&middot; &middot; &middot;</div>
+        </div>
+        <script src="/app.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
